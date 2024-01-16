@@ -20,16 +20,19 @@ const multiplicar = (base) => {
     });
 }
 
-const multiplicarPromesa = (base) => {
+const multiplicarPromesa = (base, listar) => {
     return new Promise((resolve, reject) => {
 
         let hasta = 10;
         let salida = '';
 
-        console.log(`Tabla de multiplicar del ${base}`);
-
         for (let contador = 1; contador <= hasta; contador++) {
             salida += `${base} * ${contador} = ${base * contador}\n`;
+        }
+
+        if (listar) {
+            console.log(`Tabla de multiplicar del ${base}`);
+            console.log(salida);
         }
 
         let nombreArchivo = `../logs/Tabla_${base}.log.txt`;

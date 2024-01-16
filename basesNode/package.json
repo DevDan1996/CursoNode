@@ -1,0 +1,27 @@
+{
+  "name": "basesnode",
+  "version": "0.0.1",
+  "description": "Proyecto de pruebas node",
+  "main": "ejercicio1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevDan1996/CursoNode.git"
+  },
+  "keywords": [
+    "node",
+    "bases"
+  ],
+  "author": "Daniel Hernández Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevDan1996/CursoNode/issues"
+  },
+  "homepage": "https://github.com/DevDan1996/CursoNode#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.7.2"
+  }
+}
